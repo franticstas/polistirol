@@ -1,0 +1,38 @@
+.header {
+  height: 60px;
+  background-color: #3498db;
+
+  a {
+    color: #fff;
+    line-height: 1;
+    text-decoration: none;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__nav {
+    a {
+      display: inline-block;
+      padding: 10px 15px;
+      border-radius: 2px;
+
+      &:hover,
+      &:active,
+      &:focus {
+        box-shadow: 0 0 0 1px #fff;
+      }
+    }
+  }
+
+  &__nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+}
