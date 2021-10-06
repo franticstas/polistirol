@@ -1,0 +1,33 @@
+.section {
+  color: #fff;
+  text-align: center;
+  background-color: #3498db;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  p {
+    font-size: 26px;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+    li {
+      width: 33%;
+      margin: 25px;
+    }
+
+    h3 {
+      font-size: 32px;
+    }
+  }
+
+  &--list {
+    background-color: #fff;
+    color: #000;
+  }
+}

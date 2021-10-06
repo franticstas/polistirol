@@ -1,11 +1,28 @@
 .top-slider {
+  padding: 40px;
+
   .mySwiper {
     height: 400px;
   }
 
   .swiper-slide {
+  }
+
+  &__slide {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 60px;
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }
+
+    p {
+      padding-left: 200px;
+      font-size: 26px;
+    }
   }
 }
